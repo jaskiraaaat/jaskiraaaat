@@ -4,7 +4,7 @@
   import path from 'path';
 
 export default defineConfig({
-  base: './', // Use relative paths for better compatibility
+  base: '/jaskiraaaat/', // GitHub Pages project page base path
   plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
