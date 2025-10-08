@@ -66,7 +66,7 @@ export function Navigation() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
-                href="/Resume_JaskiratSingh.pdf"
+                href={`${import.meta.env.BASE_URL}Resume_JaskiratSingh.pdf`}
                 download="Resume_JaskiratSingh.pdf"
                 className="flex items-center gap-2 px-3 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
               >
@@ -150,7 +150,7 @@ export function Navigation() {
                   initial={{ opacity: 0, x: 50 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: 50 }}
-                  href="/Resume_JaskiratSingh.pdf"
+                  href={`${import.meta.env.BASE_URL}Resume_JaskiratSingh.pdf`}
                   download="Resume_JaskiratSingh.pdf"
                   className="flex items-center gap-3 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
                 >
