@@ -5,6 +5,7 @@ import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Education } from './components/Education';
 import { Footer } from './components/Footer';
+import { Crosshair } from './components/Crosshair';
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
           }
         `}
       </style>
+      
+      {/* Crosshair cursor effect */}
+      <Crosshair />
       
       <div className="absolute inset-0 bg-grid-dark [mask-image:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0.6))] bg-[size:40px_40px]" style={{ pointerEvents: 'none' }} />
       
